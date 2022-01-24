@@ -4,6 +4,7 @@ import 'package:flutter/cupertino.dart';
 void main() {
   runApp(
     MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: "Awecome App",
       home: HomePage(),
       theme: ThemeData(primarySwatch: Colors.purple),
